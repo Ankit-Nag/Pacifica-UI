@@ -1,4 +1,4 @@
-// MODAL
+// MODAL CONTROLS
 
 const modalButton = document.querySelector('#btn-modal')
 const closeButton = document.querySelector('#btn-close')
@@ -32,6 +32,8 @@ if (closeButton && cancelButton && deleteButton) {
   addHideClass(deleteButton)
 }
 
+// On clicking outside modal container, the modal is hidden
+
 window.onclick = function(event) {
     if (event.target == modalBg) {
         modal.classList.add('hide')
@@ -50,5 +52,3 @@ if (button) {
     nav.classList.toggle('hide');
   })
 }
-
-// aside

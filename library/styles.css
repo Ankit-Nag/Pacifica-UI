@@ -64,7 +64,7 @@
     overflow: hidden;
 }
 
-/* Global Styles */
+/* GLOBAL STYLES */
 
 h1,
 h2,
@@ -101,7 +101,7 @@ hr {
 }
 
 
-/* Grids */
+/* GRIDS */
 
 .grid-2 {
     display: grid;
@@ -115,7 +115,13 @@ hr {
     column-gap: 0.5rem;
 }
 
-/* Flex */
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0.5rem;
+}
+
+/* FLEX */
 
 .flex {
     display: flex;
@@ -169,7 +175,7 @@ hr {
     max-height: 50vh;
 }
 
-/* Margins */
+/* MARGINS */
 
 .mg-sm {
     margin: 0.5rem;
@@ -285,7 +291,7 @@ hr {
     padding-right: 2rem;
 }
 
-/* Avatars */
+/* AVATARS */
 
 .avatar {
     display: flex;
@@ -330,7 +336,7 @@ hr {
 
 
 
-/* Badges */
+/* BADGES */
 
 .badge {
     position: absolute;
@@ -381,7 +387,7 @@ hr {
     margin: 0 0.25rem 0.25rem 0;
 }
 
-/* Text Alignment & styles */
+/* TEXT ALIGNMENT AND STYLING */
 
 .txt-c {
     text-align: center;
@@ -424,7 +430,7 @@ hr {
 
 }
 
-/* Alerts */
+/* ALERTS */
 
 .alert {
     padding: 0.25rem 0.5rem;
@@ -1027,7 +1033,7 @@ hr {
 }
 
 
-/* SEARC INPUT */
+/* SEARCH INPUT */
 
 
 .search-input {

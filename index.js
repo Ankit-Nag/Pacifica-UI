@@ -1,3 +1,5 @@
+// HAMBURGER MENU
+
 const button = document.querySelector('#hamburger-btn');
 const nav = document.querySelector('nav');
 if (button) {
