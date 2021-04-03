@@ -5,33 +5,50 @@
   --primary-800: rgba(0, 153, 204, 0.8);
   --primary-500: rgba(0, 153, 204, 0.5);
   --primary-250: rgba(0, 153, 204, 0.25);
+  --primary-250: rgba(0, 153, 204, 0.25);
   --primary-100: rgba(0, 153, 204, 0.1);
 
   --green: rgb(52, 199, 89);
   --green-800: rgba(52, 199, 89, 0.8);
   --green-500: rgba(52, 199, 89, 0.5);
+  --green-250: rgba(52, 199, 89, 0.25);
   --green-100: rgba(52, 199, 89, 0.1);
 
   --orange: rgb(255, 149, 0);
   --orange-800: rgb(255, 149, 0, 0.8);
   --orange-500: rgba(255, 149, 0, 0.5);
+  --orange-250: rgba(255, 149, 0, 0.25);
   --orange-100: rgba(255, 149, 0, 0.1);
 
   --red: rgb(255, 59, 48);
   --red-800: rgb(255, 59, 48, 0.8);
   --red-500: rgba(255, 59, 48, 0.5);
+  --red-250: rgba(255, 59, 48, 0.25);
   --red-100: rgba(255, 59, 48, 0.1);
 
   --yellow: rgb(255, 204, 0);
   --yellow-800: rgb(255, 204, 0, 0.8);
   --yellow-500: rgb(255, 204, 0, 0.5);
+  --yellow-250: rgb(255, 204, 0, 0.25);
   --yellow-100: rgb(255, 204, 0, 0.1);
 
   --gray: rgb(174, 174, 178);
+
   --white: rgb(242, 242, 247);
+  --white-800: rgba(242, 242, 247, 0.8);
+  --white-500: rgba(242, 242, 247, 0.5);
+  --white-250: rgba(242, 242, 247, 0.25);
+
   --black: rgb(28, 28, 30);
   --black-800: rgba(28, 28, 30, 0.8);
+  --black-500: rgba(28, 28, 30, 0.5);
+  --black-250: rgba(28, 28, 30, 0.25);
+
   --silver: rgb(229, 229, 234);
+  --silver-800: rgba(229, 229, 234, 0.8);
+  --silver-500: rgba(229, 229, 234, 0.5);
+  --silver-250: rgba(229, 229, 234, 0.25);
+
   --dark-gray: rgb(44, 44, 46);
   --dark-gray-500: rgb(44, 44, 46, 0.5);
 }
@@ -529,11 +546,13 @@ hr {
 .btn-secondary {
   border: 2px solid var(--primary);
   color: var(--primary);
+  background-color: var(--primary-100);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus-visible {
   border-color: var(--primary);
+  background-color: var(--primary-250);
 }
 
 .btn-green {
@@ -581,31 +600,37 @@ hr {
 .btn-green-outline {
   color: var(--green);
   border: 2px solid var(--green-800);
+  background-color: var(--green-100);
 }
 
 .btn-green-outline:hover,
 .btn-green-outline:focus-visible {
   border-color: var(--green);
+  background-color: var(--green-250)
 }
 
 .btn-red-outline {
   color: var(--red);
   border: 2px solid var(--red);
+  background-color: var(--red-100)
 }
 
 .btn-red-outline:hover,
 .btn-red-outline:focus-visible {
   border-color: var(--red);
+  background-color: var(--red-250)
 }
 
 .btn-orange-outline {
   color: var(--orange);
   border: 2px solid var(--orange-800);
+  background-color: var(--orange-100)
 }
 
 .btn-orange-outline:hover,
 .btn-orange-outline:focus-visible {
   border-color: var(--orange);
+  background-color: var(--orange-250)
 }
 
 /* IMAGES */
