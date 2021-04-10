@@ -57,6 +57,7 @@
 
 ::-webkit-scrollbar {
   width: 0.75rem;
+  height: 0.75rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -67,8 +68,8 @@
 ::-webkit-scrollbar-thumb {
   background: var(--primary-500);
   transition: 200ms;
-  border-radius: 1rem;
-}
+  border-radius: 0.25rem;
+}0
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
@@ -167,6 +168,11 @@ hr {
 .flex-baseline {
   align-items: baseline;
   justify-content: baseline;
+}
+
+.flex-start{
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 /* WIDTH */
@@ -944,7 +950,7 @@ hr {
   max-width: 250px;
   display: flex;
   border-radius: 0.25rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .toast > .badge-close {
