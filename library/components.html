@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-10">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Pacifica UI Components</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- AVATAR WITH LETTERS -->
+
+    <h1 class="primary txt-c txt-lg">Avatars</h1>
+
+    <section>
+      <div class="grid-3 mg-1">
+        <span class="avatar bg-primary avatar-lg">AKN</span>
+        <span class="avatar bg-primary avatar-md">AKN</span>
+        <span class="avatar bg-primary">AKN</span>
+    </section>
+
+    <!-- AVATAR WITH PROFILE IMAGE AND BADGE -->
+
+    <section class="grid-3 mg-1">
+      <div class="badge-parent">
+        <span class="avatar bg-primary avatar-lg"><img alt="placeholder image"
+            src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"></span>
+        <span class="badge badge-lg badge-btm bg-green"></span>
+      </div>
+      <div class="badge-parent">
+        <span class="avatar bg-primary avatar-md"><img alt="placeholder image"
+            src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"></span>
+        <span class="badge badge-md badge-btm bg-orange"></span>
+      </div>
+      <div class="badge-parent">
+        <span class="avatar bg-primary"><img alt="placeholder image"
+            src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"></span>
+        <span class="badge badge-btm bg-red"></span>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- ALERT WITH FILL -->
+
+    <h1 class="primary txt-c txt-lg">Alerts</h1>
+
+    <div class="grid-2 mg-1">
+      <span class="alert alert-new mg-sm">New</span>
+      <span class="alert alert-error mg-sm">Error</span>
+      <span class="alert alert-success mg-sm">Success</span>
+      <span class="alert alert-warning mg-sm">Warning</span>
+    </div>
+
+    <!-- ALERT WITH OUTLINE -->
+
+    <div class="grid-2 mg-1">
+      <span class="alert alert-new-outline mg-sm">New</span>
+      <span class="alert alert-error-outline mg-sm">Error</span>
+      <span class="alert alert-success-outline mg-sm">Success</span>
+      <span class="alert alert-warning-outline mg-sm">Warning</span>
+    </div>
+
+    <hr />
+
+    <!-- BUTTONS -->
+
+    <h1 class="primary txt-c txt-lg">Buttons</h1>
+
+    <div class="grid-2 mg-1">
+      <button class="btn btn-primary mg-sm">Primary</button>
+      <button class="btn btn-secondary mg-sm">Secondary</button>
+      <button class="btn btn-green mg-sm">Confirm</button>
+      <button class="btn btn-green-outline mg-sm">Confirm Outline</button>
+      <button class="btn btn-red mg-sm">Cancel</button>
+      <button class="btn btn-red-outline mg-sm">Cancel Outline</button>
+      <button class="btn btn-orange mg-sm">Warning</button>
+      <button class="btn btn-orange-outline mg-sm">Warning Outline</button>
+    </div>
+
+    <hr />
+
+    <!-- IMAGES -->
+
+    <h1 class="primary txt-c txt-lg">Images</h1>
+
+    <div class="grid-3 mg-1">
+      <img class="img img-scale mg-1 " alt="gameboy"
+        src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+
+      <img class="img img-shadow img-round mg-1" alt="gameboy in purple"
+        src="https://images.unsplash.com/photo-1531525727990-67532cd332c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=800" />
+
+      <img class="img img-scale mg-1" alt="gameboy in blue"
+        src="https://images.unsplash.com/photo-1531525797753-909788106ccb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80" />
+    </div>
+
+    <hr />
+
+    <!-- BADGES -->
+
+    <h1 class="primary txt-c txt-lg">Badges</h1>
+    <button class="btn btn-icon icon--transparent badge-parent">
+      <span class="material-icons primary">
+        home
+      </span>
+      <span class="badge badge-sm badge-top bg-red"></span>
+    </button>
+
+    <button class="btn btn-icon badge-parent">
+      <span class="material-icons primary">
+        account_circle
+      </span>
+      <span class="badge badge-sm badge-btm bg-orange"></span>
+    </button>
+
+    <button class="btn btn-icon-inv badge-parent">
+      <span class="material-icons">
+        chat
+      </span>
+      <span class="badge badge-top bg-green txt-sm">13</span>
+    </button>
+
+    <button class="btn btn-icon badge-parent">
+      <span class="material-icons primary">
+        chat
+      </span>
+      <span class="badge badge-top bg-green txt-sm">13</span>
+    </button>
+
+    <hr />
+
+    <!-- CARDS -->
+
+    <h1 class="primary txt-c txt-lg">Cards</h1>
+    <div class="flex flex-wrap">
+      <div class="card mg-1">
+        <img class="img img-scale" alt="apple macbook"
+          src="https://images.unsplash.com/photo-1561152820-340780bc049e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+        <p>Apple Macbook</p>
+        <p>Rs. 1,20,000</p>
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+
+
+      <!-- Card with Shadow -->
+
+      <div class="card card-shadow mg-1">
+        <img class="img img-scale" alt="apple macbook"
+          src="https://images.unsplash.com/photo-1561152820-340780bc049e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+        <p>Apple Macbook</p>
+        <p>Rs. 1,20,000</p>
+        <div class="flex">
+          <button class="btn btn-primary">Add to Cart</button>
+          <button class="btn btn-secondary">Add to Wishlist</button>
+        </div>
+      </div>
+
+      <!-- card with badge and close button -->
+
+      <div class="card mg-1">
+        <button class="badge-close btn-lg">
+          <span class="material-icons">
+            close
+          </span>
+        </button>
+        <span class="card-badge bg-orange white">New</span>
+        <img class="img" alt="apple macbook"
+          src="https://images.unsplash.com/photo-1561152820-340780bc049e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+        <p>Apple Macbook</p>
+        <p>Rs. 1,20,000</p>
+        <div class="flex flex-col">
+          <button class="btn btn-primary">Add to Cart</button>
+          <button class="btn btn-secondary">Add to Wishlist</button>
+        </div>
+      </div>
+    </div>
+
+
+    <hr />
+
+    <!-- INPUTS -->
+
+    <h1 class="primary txt-c txt-lg">Inputs</h1>
+    <div class="width-25 flex flex-col">
+      <label class="input-label">Label</label>
+      <input class="input" type="text" />
+      <label class="input-label">Label*</label>
+      <input class="input input-error" type="text" />
+      <small class="error-text">Required field</small>
+    </div>
+
+    <hr />
+
+    <!-- LISTS -->
+    <h1 class="primary txt-c txt-lg">Lists</h1>
+
+    <h4>Stacked Lists</h4>
+    <div class="relative">
+      <ul class="list list-notif">
+        <li class="list-item p-1 flex flex-center">Item 1</li>
+        <li class="list-item p-1 flex flex-center">Item 2</li>
+        <li class="list-item p-1 flex flex-center">Item 3</li>
+        <li class="list-item p-1 flex flex-center">Item 4</li>
+        <li class="list-item p-1 flex flex-center">Item 5</li>
+        <li class="list-item p-1 flex flex-center">Item 6</li>
+        <li class="list-item p-1 flex flex-center">Item 7</li>
+        <li class="list-item p-1 flex flex-center">Item 8</li>
+        <li class="list-item p-1 flex flex-center">Item 9</li>
+        <li class="list-item p-1 flex flex-center">Item 10</li>
+      </ul>
+    </div>
+
+    <h3> Spaced List</h3>
+    <ul class="list">
+      <li class="list-item-spaced p-1 flex flex-center">Item 1</li>
+      <li class="list-item-spaced p-1 flex flex-center">Item 2</li>
+      <li class="list-item-spaced p-1 flex flex-center">Item 3</li>
+      <li class="list-item-spaced p-1 flex flex-center">Item 4</li>
+      <li class="list-item-spaced p-1 flex flex-center">Item 5</li>
+    </ul>
+
+    <hr />
+
+    <h1 class="primary txt-c txt-lg">Modals</h1>
+    <button class="btn btn-primary mg-1" id="btn-modal">Open Modal</button>
+    <div class="modal-bg hide">
+      <div class="modal hide">
+        <div class="modal-content hide">
+          <button id="btn-close" class="badge-close btn-lg">
+            <span class="material-icons">
+              close
+            </span>
+          </button>
+          <!--Customise this content as you wish-->
+          <div class="w-200 flex flex-center flex-col">
+            Are you sure you want to delete? Changes will be permanently lost
+            <div class="flex mg-t-1">
+              <button id="btn-delete" class="btn btn-red">Delete</button>
+              <button id="btn-cancel" class="btn btn-red-outline">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr />
+
+
+    <h1 class="primary txt-c txt-lg">Navigation</h1>
+    <header class="header">
+      <div class="container">
+        <button id="hamburger-btn" class="btn hamburger"><span class="material-icons">
+            menu
+          </span></button>
+
+        <span><img class="img logo" src="../images/logo.svg" alt="placeholder" />
+          <p class="font-pacifico txt-md hide">Pacifica</p>
+        </span>
+        <nav class="nav hide">
+          <ul class="nav-list nav-list-primary">
+            <li class='nav-item'><a class="nav-link" href="#">Home</a></li>
+            <li class='nav-item'><a class="nav-link" href="#">About</a></li>
+            <li class='nav-item'><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <ul class="nav-list nav-list-secondary">
+            <li class='nav-item'><a class="nav-link" href="#">Sign in</a></li>
+            <li class='nav-item'><button class="btn nav-item-btn">Sign up</button></li>
+          </ul>
+        </nav>
+    </header>
+
+    <hr />
+
+    <h1 class="primary txt-c txt-lg">Ratings</h1>
+    <div class="rating mb-1"><span class="alert bg-green">3.5
+        <span>⭐</span>
+      </span>
+      (3567)
+    </div>
+
+    <hr />
+
+    <h1 class="primary txt-c txt-lg">Toast</h1>
+    <div class="flex flex-col">
+      <div class="toast toast-success mg-1">
+        <button class="badge-close">
+          <span class="material-icons">close</span>
+        </button>
+        <span class="material-icons mg-r-sm">check_circle</span>
+        This is a success toast
+      </div>
+
+      <div class="toast toast-error mg-1">
+        <button class="badge-close">
+          <span class="material-icons">close</span>
+        </button>
+        <span class="material-icons mg-r-sm">error</span>
+        This is an error toast
+      </div>
+
+      <div class="toast toast-info mg-1">
+        <button class="badge-close">
+          <span class="material-icons">close</span>
+        </button>
+        <span class="material-icons mg-r-sm">info</span>
+        This is a primary toast
+      </div>
+      <div class="toast toast-warning mg-1">
+        <button class="badge-close">
+          <span class="material-icons">close</span>
+        </button>
+        <span class="material-icons mg-r-sm">warning</span>
+        This is a warning toast
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="primary txt-c txt-lg">Typography</h1>
+    <h1 class="txt-c font--grey-500">Center Heading
+      <span class="primary"> with text</span>
+    </h1>
+    <div class="alert bg-primary">
+      <h2 class="txt-c white">Heading in Secondary Color</h2>
+    </div>
+    <p class="primary"> Regular text </p>
+    <p class="green"> Success </p>
+    <p class="orange"> Warning </p>
+    <p class="red"> Error </p>
+
+
+    <hr />
+
+    <h1 class="primary txt-c txt-lg">Search Input</h1>
+    <div class="search-input mg-2">
+      <input class="input" type="text" placeholder="Search" />
+      <span class="material-icons search-icon primary mg-r-sm">search</span>
+      <button class="badge-close close-icon btn-lg">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+
+    <hr />
+  </div>
+
+  </div>
+
+  </div>
+  </div>
+
+
+  <script src="./app.js" type="text/javascript"></script>
+</body>
+
+</html>

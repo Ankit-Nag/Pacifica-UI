@@ -1,0 +1,50 @@
+.container {
+    max-width: 70vw;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  main {
+    padding: 0 2rem;
+  }
+  
+  aside {
+    position: fixed;
+    top: 15vh;
+    right: 0vw;
+    height: min-content;
+    width: min-content;
+    background-color: var(--primary-800);
+    color: var(--white);
+    padding: 1rem 1rem 1rem 0rem;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    z-index: 0;
+  }
+  
+  .aside-link {
+    display: flex;
+    text-decoration: none;
+    width: max-content;
+    padding: 0.5rem 2rem;
+    color: var(--white);
+  }
+  
+  .aside-link-active {
+    font-weight: 600;
+    background-color: var(--white);
+    color: var(--primary);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+  }
+  
+
+  @media (max-width: 1000px){
+    aside{
+        display: none;
+    }
+}
